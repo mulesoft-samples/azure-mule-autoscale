@@ -1,6 +1,8 @@
 #!/bin/bash
 # This script will run in the /home/[username] folder in each Linux VM in the VM Scale Set.
 
+sudo adduser --disabled-password --gecos "" mule
+cd /home/mule
 sudo apt-get update -y 
 sudo apt install -y openjdk-8-jdk
 sudo apt install unzip
