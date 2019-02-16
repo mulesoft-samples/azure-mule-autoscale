@@ -1,0 +1,4 @@
+{
+  "fileUris": ["https://raw.githubusercontent.com/mulesoft-samples/azure-mule-autoscale/master/custom-extension/deploy_mule_api.sh"],
+  "commandToExecute": "./deploy_mule_api.sh"
+}
